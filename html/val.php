@@ -5,7 +5,7 @@
 <?php
 		$servername = "localhost";
 		$username = "root";
-		$password = "password";
+		$password = "1234567";
 		$dbname="intern";
 		$tablename="users";
 		$admin="manishabachu1@gmail.com";
