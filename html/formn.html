@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+<title>Registration form</title>
+<style>
+label{
+display:inline;
+text-align:right;
+color:blue;
+}
+span{
+margin-left:50px;
+}
+</style>
+</head>
+<body>
+<div style="margin-left:25%;margin-top:50px;border:2px solid red;width:50%" >
+<form method="get" name="form1" action="abc.js" align="center" style="padding:50px 0px 50px 0px" >
+<label >Firstname:</label><span><input type="text" name="fname" placeholder="enter your first name" /></span>
+<br><br>
+<label>Lastname:</label><span><input type="text" name="lname" placeholder="enter your last name" /></span>
+<br><br>
+<label>Address:</label><span><textarea rows="5"></textarea></span>
+<br><br>
+<label>Gender:</label><span><input type="radio" name="gender" value="Male" />Male
+<input type="radio" name="gender" value="Female" />Female
+</span>
+<br><br>
+<label >Languages:</label><span><input type="checkbox" name="langu" value="eng" />English
+<input type="checkbox" name="langu" value="hin" />Hindi
+<input type="checkbox" name="langu" value="tel" />Telugu
+</span>
+<br>
+<br>
+<label >Branch:</label><span><select name="branch">
+<option value="ECE">ECE</option>
+<option value="CCE">CCE</option>
+<option value="EEE">EEE</option>
+</select></span>
+<br>
+<br>
+<input type="submit">
+</form>
+</div>
+</html>

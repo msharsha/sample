@@ -1,0 +1,133 @@
+#footer
+{
+    background-color: #404040;
+    background-color: #333333;
+	background-color: #3a4346;
+    display: inline-block;
+    width: 100%;
+	margin-top:5px;
+    padding-bottom: 0%;
+}
+.fleft
+{
+	float: left;
+    display: inline-block;
+    color: white;
+    font-family: courier;
+    width: 65%;
+    font-size: 23px;
+    margin:2% 0% 0% 2%;
+}
+p
+{
+	display:initial;
+	
+}
+.cop
+{
+	color:white;
+	text-align:center;
+	padding-bottom:1%;
+	font-size:10px;
+}
+.fright
+{
+	text-align: right;
+    width: 30%;
+	margin:2% 2% 0% 68%;
+
+}
+.icon
+{
+	border-radius:50%;
+    font-size:18px;
+    display: inline-block;
+    color: white;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+.icon:hover
+{
+	-webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+.wid1
+{
+	padding:6px 2px;
+}
+.wid2
+{
+padding:6px 6px 6px 0px;
+}
+/*@media screen and (max-width:500px)
+{
+	.fleft
+	{
+		width: 55%;
+		font-size: 20px;
+		margin-left:0%;
+	}
+	.fright
+	{
+		margin-left: 60%;
+		width: 38%;
+	}
+	.icon
+	{
+		font-size:16px;
+	}
+	.wid2
+	{
+		padding:6px 6px 6px 0px;
+	}
+	.wid1
+	{
+		padding:6px 0px;
+	}
+}*/
+@media screen and (min-width:768px)
+{
+	.fleft
+	{
+		font-size: 35px;
+		margin-left: 5%;
+		width: 50%;
+	}
+	.fright
+	{
+		margin-left: 60%;
+		width: 34%;
+	}
+	.icon
+	{
+		font-size: 30px;
+	}
+	.wid2
+	{
+		padding:6px 13px 0px 12px;
+	}
+	.wid1
+	{
+		padding:6px;
+	}
+	.cop
+	{
+		font-size: 15px;
+	}
+}
+@media screen and (min-width:2000px)
+{
+	.fleft
+	{
+		font-size: 70px;
+		margin-left: 0%;
+	}
+	.cop
+	{
+		font-size:30px;
+	}
+	.icon
+	{
+		font-size:65px;
+	}
+}

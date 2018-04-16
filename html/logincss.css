@@ -1,0 +1,111 @@
+html,body
+{
+	height:100%;
+	margin:0%;
+	width:100%;
+	background-image:url("bg11.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+#head
+{
+	text-align: center;
+    font-family: 'Open Sans', arial;
+    font-size: 3em;
+    color: #555;
+    font-weight: 100;
+}
+img
+{
+	padding-top: 10%;
+    width: 24%;
+    padding-left: 38%;
+}
+
+div.cen
+{
+	opacity:1;
+	border:1px solid #ccc;
+	width:35%;
+	background-color:#f7f7f7;
+	margin:0% auto;
+	border-radius:5px;
+}
+.inp
+{
+	color: #404040;
+	width:80%;
+	padding:0px 8px;
+}
+.hei
+{
+	height:50px;
+	width:98%;
+}
+#em
+{
+	margin: 9% auto 4%;
+}
+#pas
+{
+	margin:auto;
+	margin-bottom:17px;
+}
+.inp-but
+{
+	width: 80%;
+    color: white;
+    display: block;
+    background-color: #4d90fe;
+    margin: auto;
+    height: 50px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+#ri8
+{
+	float:right;
+}
+.below
+{
+	margin:auto;
+	padding:10px 0px;
+	margin-bottom:40px;
+}
+.tran
+{
+	width:300px;
+	margin:20px auto;
+	text-align:center;
+}
+.tran1
+{
+	text-decoration:none;
+	color:#4d90fe;
+}
+@media only screen and (min-height: 1200px)
+{
+	div.cen
+	{
+		width: 80%;
+		margin:auto;
+		height: 50%;
+		margin-bottom: 50px;
+	}
+	.hei
+	{
+		height:100px;
+	}
+	.inp-but
+	{
+		height:100px;
+	}
+}
+@media only screen and (min-height: 1000px max-height:1200px)
+{
+	div.cen
+	{		
+		height: 65%;
+	}
+}

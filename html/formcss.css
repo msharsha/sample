@@ -1,0 +1,124 @@
+body{
+
+background-image:url("bg11.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.container
+{
+	margin-left:20%;
+	width:50%;
+	font-size:1.5em;
+}
+.tab
+{
+	margin-bottom:5%;
+	width:100%;
+}
+.more
+{
+	opacity:0.6;
+	font-size:0.75em;
+	text-align:right;
+	padding-right:10%;
+	padding-bottom:2%;
+}
+#password
+{
+	width: 73%;
+    margin-left: 0%;
+}
+div.p1{
+float:left;	
+width:40%;
+text-align:right;
+
+}
+div.pr
+{
+	width:60%;
+	display:inline-block;
+}
+.full
+{
+	width:50%;
+	margin-bottom:5%;
+	height:30px;
+}
+#secdiv
+{
+	margin-top:5%;
+}
+.p12{
+	position:absolute;
+	right:60%;
+	margin-bottom:5%;
+	text-align:right;
+}
+.hid{
+	position:absolute;
+	left:45%;
+}
+
+h1{
+text-align:center;
+}
+
+.tex
+{
+width:73%;
+}
+#con{
+font-size:0.75em;
+position: absolute;
+    left: 45%;
+}
+label{
+padding:0px 0px 0px 50px;
+}
+#chec11{
+width: 55%;
+    margin-right: 5%;
+}
+#sel{
+margin-right:53%;
+}
+#sel1{
+margin-right:54%;
+}
+#radi{
+width: 40%;
+    margin-right: 20%;
+}
+#mail
+{
+	width:73%;
+}
+
+#filesel1
+{
+	padding: 0px 25px;
+    margin: 0;
+    position: absolute;
+    left: 44%;
+    background: #808895;
+    color: white;
+    border: 0.5px dashed white;
+    margin-left: 0px;
+}
+#opa
+{
+	opacity: 0;
+    position: absolute;
+    left: 44%;
+    width: 157px;
+    height: 29px;
+}
+@media screen and (max-width:980px)
+{
+	body
+	{
+		min-width:320px;
+	}
+}

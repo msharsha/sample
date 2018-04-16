@@ -1,0 +1,106 @@
+html,body
+{
+	height:100%;
+	margin:0%;
+}
+#header1
+{
+	width:100%;
+    background-color: white;
+    border-bottom: 0.1px solid #bbbebf;
+	height:7%;
+}
+
+#headlist
+{
+	padding-left:0px;
+	padding-right:0px;
+	list-style-type:none;
+	float:right;
+}
+.l1
+{
+	font-size:0.9em;
+	padding-left:13px;
+	float:left;
+	border-right:1px solid white;
+	padding-right:0px;
+}
+li a.al1,div a.al1
+{
+	display:inline-block;
+	color:#576569;
+	font-family:courier;
+	text-decoration:none;
+}
+.al1:hover
+{
+	color:#4285f4;
+}
+
+@media screen and (min-width:360px)
+{
+	li.l1
+	{
+		padding-left: 8px;
+	}
+	.al1
+	{
+		font-size:1.15em;
+	}
+}
+@media screen and (min-width:400px )
+{
+	li.l1
+	{
+		padding-left: 17px;
+		padding-right:4px;
+	}
+}
+@media screen and (min-width:750px)
+{
+	#header1
+	{
+		width:100%;
+	}
+	li.l1
+	{
+		padding-left: 38px;
+		padding-right: 8px;
+	}
+	.al1
+	{
+		font-size:1.5em;
+	}
+
+}
+@media screen and (min-width:750px) and (min-height:1000px)
+{
+	
+	.al1
+	{
+		font-size:2em;
+	}
+}
+@media screen and (max-height:1000px)
+{
+	
+	#header1
+	{
+	height: 10%;
+	}
+}
+
+@media screen and (min-width:2000px)
+{
+
+	li.l1
+	{
+		padding-left: 100px;
+		padding-right: 20px;
+	}
+	.al1
+	{
+		font-size:2.5em;
+	}
+}

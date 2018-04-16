@@ -1,0 +1,105 @@
+
+table.abc
+{
+	font-family:arial;
+	margin-bottom:5px;
+	 
+}
+table,th,td
+{
+border:1px solid #03A9F4;
+border-collapse:collapse;
+}
+th,td
+{
+		font-size:0.7em;
+
+	padding:2%;
+	text-align:center;
+}
+.action1
+{
+	padding:0%;
+}
+table.abc
+{
+	width:100%;
+}
+
+th
+{
+	text-transform: uppercase;
+}
+
+
+.but
+{
+	float: left;
+    width: 49%;
+    border: 1px solid #f6f9f6;
+    color: white;
+    font-size: 0.7em;
+    background-color: #03A9F4;
+    padding: 2% 0%;
+
+}
+.but1
+{
+	border: 1px solid #4CAF50;
+    color: white;
+    background-color: #4caf50;
+    margin-left: 46%;
+    padding: 15px;
+}
+#tab
+{
+	margin:0% 40%;
+	font-size:2em;
+	padding:5px;
+}
+.pagination
+{
+	text-align:center;
+	margin:5% 0%;
+}
+.pagebut,.activepage,.span1,.disabled{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0px 2px;
+}
+.pagebut,.span1
+{
+	border: 1px solid white;
+    background-color: #03A9F4;
+	color: white;
+
+}
+.activepage
+{
+	border: 1px solid #03A9F4;
+    background-color: white;
+	color: #03A9F4;
+}
+.disabled
+{
+	border: 1px solid grey;
+    background-color: white;
+	color: grey;
+}
+@media screen and (min-width:768px)
+{
+	.pagination
+	{
+		margin:2% 0%;
+	}
+	.but
+	{
+		font-size: 1.125em;
+	
+	}
+	th,td
+	{
+		font-size:1.125em;
+	}
+}

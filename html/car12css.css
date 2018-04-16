@@ -1,0 +1,86 @@
+
+table.abc
+{
+	font-family:arial;
+	margin-bottom:5px;
+}
+h1
+{
+	text-align:center;
+}
+th.abc
+{
+	text-transform: capitalize;
+}
+
+.but
+{
+    width: 100%;
+    border: 1px solid #f6f9f6;
+    color: white;
+    font-size: 0.7em;
+    background-color: #03A9F4;
+    padding: 2% 0%;
+
+}
+.form1,.delfo
+{
+	width:50%;
+	float:left;
+}
+.but1
+{
+	border: 1px solid #4CAF50;
+    color: white;
+    background-color: #4caf50;
+    margin-left: 46%;
+    padding: 15px;
+}
+.but:hover
+{
+	background-color:white;
+	color:#03A9F4;
+	border-color:#03A9F4;
+}
+.fleft1,.fright1
+{
+	width:50%;
+}
+.fleft1
+{
+	float:left;
+}
+.fright1
+{
+	float:right;
+}
+
+@media screen and (min-width:320px) and (max-width:400px)
+{
+	#myTable
+	{
+		width:320px;
+	}
+	.but1
+	{
+		margin-top:20px;
+		margin-left: 43%;
+		padding: 15px;
+	}
+}
+@media screen and (min-width:768px)
+{
+	.but1
+	{
+		margin-top:20px;
+		margin-left: 43%;
+		padding: 15px;
+		font-size:1.5em;
+	}
+	.but
+	{
+		margin:0;
+		font-size:1.5em;
+		padding:2px 0px;
+	}
+}

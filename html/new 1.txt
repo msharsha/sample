@@ -1,0 +1,28 @@
+			/*<?php
+					$doc= new DOMElement();
+					$opt = $doc->getElementById('sel1');
+					$appended = $doc->createElement('option', 'Audi A3');
+	//actually append the element
+	$opt->appendChild($appended);?>*/
+
+	
+	optn = document.createElement("OPTION");
+					optn.text = \'Audi A3\';
+					optn.value = \'Audi A3\';
+					document.getElementById(\'sel1\').options.add(optn);
+					optn = document.createElement("OPTION");
+					optn.text = \'Audi Q3\';
+					optn.value = \'Audi Q3\';
+					document.getElementById(\'sel1\').options.add(optn);
+					optn = document.createElement("OPTION");
+					optn.text = \'Audi A4\';
+					optn.value = \'Audi A4\';
+					document.getElementById(\'sel1\').options.add(optn);
+					break;
+					
+					
+document.getElementById(\'sel1\').options.length = 0;		
+	var optn = document.createElement("OPTION");
+	optn.text = \'choose\';
+	optn.value = \'\';
+	document.getElementById(\'sel1\').options.add(optn);

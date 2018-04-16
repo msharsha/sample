@@ -1,0 +1,120 @@
+/*html,body
+{
+	height:100%;
+	margin:0%;
+}
+#header1
+{
+	background-color:white;
+	width: 100%;
+    border-bottom: 0.1px solid #bbbebf;
+	height:5%;
+    /* background-color: rgb(97, 90, 90); */
+/*}
+
+#headlist
+{
+	padding-left:0px;
+	padding-right:2px;
+	list-style-type:none;
+	float:right;
+}
+
+ .l1
+{
+	padding-left:80px;
+	float:left;
+	border-right:1px solid white;
+	padding-right:8px;
+}
+
+li a.al1,div a.al1
+{
+	display:inline-block;
+	color:#576569;
+	font-family:courier;
+	text-decoration:none;
+}
+.al1:hover
+{
+	color:#4285f4;
+}*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+	word-wrap:break-word;
+}
+.avatar
+{
+	width:50px;
+	height:50px;
+}
+.dropdown-content {
+	display:none;
+    position: absolute;
+    right: 0;
+	top:40px;
+	border:1px solid #4285f4;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: #4285f4;
+    padding: 5px;
+    text-decoration: none;
+	border-bottom:1px double #4285f4;
+    display: block;
+    font-size: 0.6em;
+}
+@media screen and (min-width:360px)
+{
+	.dropdown-content a 
+	{
+		font-size: 0.75em;
+	}
+}
+@media screen and (min-width:750px)
+{
+	.dropdown-content a 
+	{
+		font-size: 1.15em;
+	}
+
+}
+@media screen and (min-height:600px)
+{
+	.dropdown-content
+	{
+		top:50px;
+	}
+
+}
+@media screen and (min-height:700px)
+{
+	.dropdown-content
+	{
+		top:57px;
+	}
+
+}
+@media screen and (min-height:1024px)
+{
+	.dropdown-content
+	{
+		top:59px;
+	}
+
+}
+@media screen and (min-width:2000px)
+{
+	.dropdown-content a
+	{
+		padding:15px 5px;
+		font-size:2.25em;
+	}
+
+}

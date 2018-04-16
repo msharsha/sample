@@ -1,0 +1,144 @@
+body{
+
+background-image:url("bg11.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.container
+{
+	width:100%;
+	font-size:1.5em;
+}
+.tab
+{
+	margin-bottom:5%;
+	width:100%;
+}
+.more
+{
+	opacity:0.6;
+	font-size:0.75em;
+	text-align:right;
+	padding-right:10%;
+	padding-bottom:2%;
+}
+
+div.p1
+{
+	float:left;	
+	width:36%;
+	text-align:right;
+}
+div.pr
+{
+	width:55%;
+	display:inline-block;
+}
+.pr1
+{
+	width: 55%;
+    text-align: left;
+    margin-left: 41%;
+}
+.full
+{
+	width:50%;
+	margin-bottom:5%;
+	height:30px;
+}
+#add
+{
+	width:100%;
+}
+#secdiv
+{
+	margin-top:5%;
+}
+#emailavail
+{
+	font-size:0.5em;
+	color:red;
+}
+.p12
+{
+	position:absolute;
+	right:60%;
+	margin-bottom:5%;
+	text-align:right;
+}
+.hid
+{
+	position:absolute;
+	left:45%;
+}
+
+h1
+{	
+	text-align:center;
+}
+
+.tex
+{
+	width:100%;
+}
+#con
+{
+	font-size:0.75em;
+}
+label
+{
+	padding:0px;
+}
+#chec11
+{
+	text-align:left;
+}
+#sel
+{
+	float:left;
+	clear:both;}
+#sel1
+{	
+	margin-right:47%;
+}
+#radi
+{
+	text-align:left;
+}
+#mail
+{
+	width:100%;
+}
+#password
+{
+	width: 100%;
+}
+#mod
+{
+	height:200px;
+}
+.imagecheckbox
+{
+	float:left;
+	width:33%;
+	height:100%;
+}
+.checkimage
+{
+	width: 80%;
+    height: 80%;
+}
+@media only screen and (min-width: 1024px)
+{
+	.container
+	{
+		margin-left:25%;
+		width:50%;
+		font-size:1.5em;
+	}
+	label
+	{
+		padding:0px 0px 0px 50px;
+	}
+}
