@@ -12,7 +12,7 @@ include 'adminheader.php';
 $id=$_POST["id1"];
 $servername = "localhost";
 $username = "root";
-$password = "password";
+$password = "1234567";
 $dbname="intern";
 $tablename="users";
 $model="";
