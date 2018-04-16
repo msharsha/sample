@@ -18,7 +18,7 @@
 				//$carsnames=[["Audi",[['Audi A3',"audi1.jpg"]]],[""],[]];
 				$servername = "localhost";
 				$username = "root";
-				$password = "password";
+				$password = "1234567";
 				$dbname="intern";
 				$tablename="users";
 				$tablename1="models";
