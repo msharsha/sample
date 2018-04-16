@@ -5,7 +5,7 @@ $name=$image=$price=$id="";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$servername = "localhost";
 $username = "root";
-$password = "password";
+$password = "1234567";
 $dbname="intern";
 $tablename="cartable";
 
