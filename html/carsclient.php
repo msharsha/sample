@@ -39,7 +39,7 @@ function check2(){
 <?php
 	$servername = "localhost";
 	$username = "root";
-	$password = "password";
+	$password = "1234567";
 	$dbname="intern";
 	$tablename="cartable";
 	echo "<table class=\"abc\"><th class=\"abc\">Id</th><th class=\"abc\">name</th><th class=\"abc\">source</th><th class=\"abc\">price</th><th class=\"abc\">Actions</th>";
