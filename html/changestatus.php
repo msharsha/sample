@@ -3,7 +3,7 @@ if(!isset($_SESSION))
 	session_start();
 $servername = "localhost";
 $username = "root";
-$password = "password";
+$password = "1234567";
 $dbname="intern";
 $tablename="users";
 $cookie_name = "user";
