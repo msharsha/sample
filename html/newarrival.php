@@ -2,7 +2,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "password";
+$password = "1234567";
 $dbname="intern";
 $tablename="cartable";
 echo '<h1 id="fheading">New Arrivals</h1><div class="box box1">';
